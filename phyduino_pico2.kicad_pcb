@@ -38291,7 +38291,7 @@
 			(at 1.225 -3.585 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6628ea35-ee93-4ffc-83b0-3c927e371082")
+			(uuid "710f8832-36fe-4878-8973-3b86536e6870")
 			(effects
 				(font
 					(size 1 1)
@@ -38303,7 +38303,7 @@
 			(at 10.75 3.585 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59fe3257-4171-475b-b2e7-5c7e7271027c")
+			(uuid "62b1f159-ecd9-414b-bc4b-a1e4fb3fd538")
 			(effects
 				(font
 					(size 1 1)
@@ -38315,7 +38315,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "37ff0c63-66ec-4b0c-887e-4208f9089342")
+			(uuid "10049e9a-d073-4205-a580-e11aee964532")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38327,7 +38327,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df4065c3-7a68-435e-acfc-91bccb639d90")
+			(uuid "014533ab-5a0c-45a4-8245-a8d9da28521b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38481,14 +38481,6 @@
 		(path "/58c4848c-6949-4b8a-bbf3-0a8ed32b7196/5c121146-22cf-4407-b679-7587725ee278/48e4c36f-88ce-440c-98f6-44ce71d1d28b")
 		(sheetname "/Microcontroller/Peripherals/")
 		(sheetfile "phyduino_pico_peripherals.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "15" "16" "1" "2" "3" "4" "5" "6" "7" "9" "17" "10" "12" "14" "13"
-					"11" "8"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38573,7 +38565,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -2.166667 -1.354525) (xy -1.811667 -1.51195) (xy -1.836667 -1.114525)
+				(xy -1.947879 -1.490739) (xy -1.790454 -1.135739) (xy -2.187879 -1.160739)
 			)
 			(stroke
 				(width 0.12)
@@ -38677,7 +38669,7 @@
 		(pad "1" smd roundrect
 			(at -1.4 -0.75 90)
 			(size 0.6 0.24)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/Peripherals/AIN2")
 			(pinfunction "AIN2/GPIO2_1")
@@ -38687,7 +38679,7 @@
 		(pad "2" smd roundrect
 			(at -1.4 -0.25 90)
 			(size 0.6 0.24)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/Peripherals/AIN3")
 			(pinfunction "AIN3/GPIO3_2")
@@ -38697,7 +38689,7 @@
 		(pad "3" smd roundrect
 			(at -1.4 0.25 90)
 			(size 0.6 0.24)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/Peripherals/AIN4")
 			(pinfunction "AIN4/GPIO4_3")
@@ -38707,7 +38699,7 @@
 		(pad "4" smd roundrect
 			(at -1.4 0.75 90)
 			(size 0.6 0.24)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/Peripherals/AIN5")
 			(pinfunction "AIN5/GPIO5_4")
@@ -38715,9 +38707,9 @@
 			(uuid "636d537e-d8ed-49e1-90b3-9cc73f86398b")
 		)
 		(pad "5" smd roundrect
-			(at -0.75 1.4 90)
-			(size 0.24 0.6)
-			(layers "F.Cu" "F.Paste")
+			(at -0.75 1.4 180)
+			(size 0.6 0.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/HS_GPIO0")
 			(pinfunction "AIN6/GPIO6_5")
@@ -38725,9 +38717,9 @@
 			(uuid "f5373c99-ed5e-47df-8e80-664723e88f38")
 		)
 		(pad "6" smd roundrect
-			(at -0.25 1.4 90)
-			(size 0.24 0.6)
-			(layers "F.Cu" "F.Paste")
+			(at -0.25 1.4 180)
+			(size 0.6 0.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/HS_GPIO1")
 			(pinfunction "AIN7/GPIO7_6")
@@ -38735,9 +38727,9 @@
 			(uuid "72a5f7b9-03e4-4ace-97cd-ef1e1edf5af5")
 		)
 		(pad "7" smd roundrect
-			(at 0.25 1.4 90)
-			(size 0.24 0.6)
-			(layers "F.Cu" "F.Paste")
+			(at 0.25 1.4 180)
+			(size 0.6 0.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "+5.0VA")
 			(pinfunction "AVDD_7")
@@ -38745,9 +38737,9 @@
 			(uuid "845ff98a-c5be-4ee2-8c41-a3a7f9ba3a47")
 		)
 		(pad "8" smd roundrect
-			(at 0.75 1.4 90)
-			(size 0.24 0.6)
-			(layers "F.Cu" "F.Paste")
+			(at 0.75 1.4 180)
+			(size 0.6 0.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "Net-(U5-DECAP)")
 			(pinfunction "DECAP_8")
@@ -38757,7 +38749,7 @@
 		(pad "9" smd roundrect
 			(at 1.4 0.75 90)
 			(size 0.6 0.24)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "GND")
 			(pinfunction "GND_9")
@@ -38767,7 +38759,7 @@
 		(pad "10" smd roundrect
 			(at 1.4 0.25 90)
 			(size 0.6 0.24)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "+3.3V")
 			(pinfunction "DVDD_10")
@@ -38777,7 +38769,7 @@
 		(pad "11" smd roundrect
 			(at 1.4 -0.25 90)
 			(size 0.6 0.24)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/ADC_nCS")
 			(pinfunction "~{CS}_11")
@@ -38787,7 +38779,7 @@
 		(pad "12" smd roundrect
 			(at 1.4 -0.75 90)
 			(size 0.6 0.24)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/ADC_MISO")
 			(pinfunction "SDO_12")
@@ -38795,9 +38787,9 @@
 			(uuid "5f54b5ff-eb7b-48bc-b9ea-abe46b263f4f")
 		)
 		(pad "13" smd roundrect
-			(at 0.75 -1.4 90)
-			(size 0.24 0.6)
-			(layers "F.Cu" "F.Paste")
+			(at 0.75 -1.4 180)
+			(size 0.6 0.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/ADC_SCK")
 			(pinfunction "SCLK_13")
@@ -38805,9 +38797,9 @@
 			(uuid "1376b52d-44e8-4661-95c6-5c8f201e1d67")
 		)
 		(pad "14" smd roundrect
-			(at 0.25 -1.4 90)
-			(size 0.24 0.6)
-			(layers "F.Cu" "F.Paste")
+			(at 0.25 -1.4 180)
+			(size 0.6 0.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/ADC_MOSI")
 			(pinfunction "SDI_14")
@@ -38815,9 +38807,9 @@
 			(uuid "16ece8b6-3db5-49a9-b9ea-0a3cf9f4fe62")
 		)
 		(pad "15" smd roundrect
-			(at -0.25 -1.4 90)
-			(size 0.24 0.6)
-			(layers "F.Cu" "F.Paste")
+			(at -0.25 -1.4 180)
+			(size 0.6 0.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/Peripherals/AIN0")
 			(pinfunction "AIN0/GPIO0_15")
@@ -38825,9 +38817,9 @@
 			(uuid "5396d7cb-4945-48ca-83f4-9d3bf636d4b0")
 		)
 		(pad "16" smd roundrect
-			(at -0.75 -1.4 90)
-			(size 0.24 0.6)
-			(layers "F.Cu" "F.Paste")
+			(at -0.75 -1.4 180)
+			(size 0.6 0.24)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2)
 			(net "/Microcontroller/Peripherals/AIN1")
 			(pinfunction "AIN1/GPIO1_16")

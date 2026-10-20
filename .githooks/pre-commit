@@ -1,0 +1,15 @@
+#!/bin/sh
+# Runs the pre-release check before each commit (ERC skipped, as in CI).
+# Enable once per clone with:  git config core.hooksPath .githooks
+# Skip for one commit with:    git commit --no-verify
+
+cd "$(git rev-parse --show-toplevel)" || exit 1
+
+for py in python python3 py; do
+    if command -v "$py" >/dev/null 2>&1; then
+        exec "$py" scripts/prerelease_check.py --skip erc
+    fi
+done
+
+echo "pre-commit: Python not found; skipping scripts/prerelease_check.py" >&2
+exit 0

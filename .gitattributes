@@ -1,0 +1,15 @@
+# Store text files with LF in the repo, whatever the local core.autocrlf setting.
+* text=auto
+
+# Shell scripts must keep LF on checkout, or sh fails on Windows clones.
+.githooks/* text eol=lf
+*.sh        text eol=lf
+
+# Binary files: no line-ending conversion or text diffs.
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.glb  binary
+*.zip  binary
+*.ttf  binary
+*.TTF  binary
